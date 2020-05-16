@@ -1,5 +1,5 @@
-# module StructEquality
-# export def_structequal, @def_structequal
+module StructEquality
+export def_structequal, @def_structequal
 
 using SimpleMatch
 
@@ -82,4 +82,4 @@ macro def_structequal(struct_expr)
   end
 end
 
-# end # module
+end # module
