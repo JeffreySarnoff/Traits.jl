@@ -1,7 +1,8 @@
 module StructEquality
 export def_structequal, @def_structequal
 
-using SimpleMatch
+include("SimpleMatch.jl")
+using .SimpleMatch
 
 issomething = !isnothing
 nonempty = !isempty
