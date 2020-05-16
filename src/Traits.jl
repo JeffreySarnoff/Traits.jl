@@ -18,6 +18,9 @@ suppress_on_traits_definitions::Bool = false
 """
 const CONFIG = _Config()
 
+include("StructEquality.jl")
+using .StructEquality
+
 include("Utils/Utils.jl")
 using .Utils
 
